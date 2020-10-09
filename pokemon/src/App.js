@@ -3,7 +3,7 @@ import './App.css';
 import { Layout, Menu } from 'antd';
 import "antd/dist/antd.css";
 import { BrowserRouter as Router, Route, Link } from 'react-router-dom';
-import { AppstoreOutlined, HomeOutlined, TeamOutlined } from '@ant-design/icons';
+import { AppstoreOutlined, HomeOutlined, FireOutlined} from '@ant-design/icons';
 import Home from './components/Home';
 import Pokemons from './components/Pokemons';
 const { SubMenu } = Menu;
@@ -19,8 +19,8 @@ function AppMenu() {
       <Menu.Item key="home" icon={<HomeOutlined />}>
         <Link to="/">Home</Link>
       </Menu.Item>
-      <Menu.Item key="Pokemons" icon={<HomeOutlined />}>
-        <Link to="/pokemons">Pokemons</Link>
+      <Menu.Item key="Pokemons" icon={<FireOutlined />}>
+        <Link to="/pokemons">Lista de Pokemons</Link>
       </Menu.Item>
       </Menu>
       );
@@ -59,9 +59,8 @@ function App() {
               </div>
           </Content>
           <Footer style={{textAlign: 'center'}}>
-              <p>Teléfono</p>
-              <p>Dirección</p>
-              <p>Ciudad - País</p>
+              <p>ASUNCIÓN-PY</p>
+              <p>Todos los derechos reservados</p>
           </Footer>
         </Layout>
       </Router>

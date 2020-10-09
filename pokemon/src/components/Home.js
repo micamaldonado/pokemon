@@ -10,12 +10,12 @@ const { Text } = Typography;
 const pokes = [
     {
         titulo: "Supera el cuestionario visual de los Pokémon de Galar",
-        info: "legados a este punto, te habrás hecho con docenas, o cientos, de Pokémon en Pokémon Espada y Pokémon Escudo. Los has entrenado, has combatido a su lado... ¡Seguro que se han convertido en tus fieles compañeros! Pero ¿cómo de bien los conoces? Hemos creado este pequeño cuestionario que te permitirá observar más de cerca que nunca a algunos Pokémon de la región de Galar",
+        info: "Llegados a este punto, te habrás hecho con docenas, o cientos, de Pokémon en Pokémon Espada y Pokémon Escudo. Los has entrenado, has combatido a su lado... ¡Seguro que se han convertido en tus fieles compañeros! Pero ¿cómo de bien los conoces? Hemos creado este pequeño cuestionario que te permitirá observar más de cerca que nunca a algunos Pokémon de la región de Galar",
         imagen_url: "https://assets.pokemon.com/assets/cms2-es-es/img/video-games/_tiles/pokemon-sword-shield/pokedex-quiz/eyes-of-galar/eyes-of-galar-169.jpg"
     },
     {
         titulo: "Supera el cuestionario visual de los Pokémon de Galar",
-        info: "legados a este punto, te habrás hecho con docenas, o cientos, de Pokémon en Pokémon Espada y Pokémon Escudo. Los has entrenado, has combatido a su lado... ¡Seguro que se han convertido en tus fieles compañeros! Pero ¿cómo de bien los conoces? Hemos creado este pequeño cuestionario que te permitirá observar más de cerca que nunca a algunos Pokémon de la región de Galar",
+        info: "Llegados a este punto, te habrás hecho con docenas, o cientos, de Pokémon en Pokémon Espada y Pokémon Escudo. Los has entrenado, has combatido a su lado... ¡Seguro que se han convertido en tus fieles compañeros! Pero ¿cómo de bien los conoces? Hemos creado este pequeño cuestionario que te permitirá observar más de cerca que nunca a algunos Pokémon de la región de Galar",
         imagen_url: "https://assets.pokemon.com/assets/cms2-es-es/img/video-games/_tiles/pokemon-sword-shield/pokedex-quiz/eyes-of-galar/eyes-of-galar-169.jpg"
     },
 ]
