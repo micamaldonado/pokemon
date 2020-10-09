@@ -40,8 +40,8 @@ function App() {
       <Router>
         <Layout>
         < div className= "header" >
-            <img src="https://www.flaticon.es/svg/static/icons/svg/588/588275.svg" height={100} width={100} ></img>
-          <div style={{ color: 'black', fontSize: 30, textAlign: 'center' }}><h3>Pokemons</h3></div>
+            <img src="https://poketouch.files.wordpress.com/2020/06/cropped-two_pikachu_pokemon_logo.png"  ></img>
+          {/* <div style={{ color: 'black', fontSize: 30, textAlign: 'center' }}><h3>Pokemons</h3></div> */}
         </div>
           <Content>
 

@@ -51,23 +51,23 @@ return (
             <br></br>
             
             <div>
-                <Row gutter={[16, 16]}>
+                <Row gutter={[25, 25]}>
                     {cards && cards.map(card => {
                         return (
                             
                         //         <Poke pokemon={pokemon} />
                         //     )
                         // })}
-                            <Col span={6}>
+                            <Col span={4}>
                                 {/* AJUSTAR CONTENIDO ACÁ */}
-                                <div style={{ height: 450 }}>
+                                <div>
                                     <Card
-                                        style={{ width: 300 }}
+                                        style={{ width: 200, textAlign: "center" , height: 400 }}
                                         cover={
                                             <div> <img
                                                 alt='imagen'
                                                src={card.imageUrl} 
-                                                style={{ height: 200 }} //VER COMO HACER AJUSTABLE                                            
+                                                style={{ height: 200, textAlign:"center" }} //VER COMO HACER AJUSTABLE                                            
                                             />
                                             </div>
                                         }
@@ -88,13 +88,6 @@ return (
                                         <div align='center'>
                                             <br></br>
                                             <Space>
-                                                <Tooltip title="Nuevo">
-                                                    <Button
-                                                        type="primary"
-                                                        shape="round"
-                                                        icon={<PlusOutlined />}>Agregar al carrito
-                                                    </Button>
-                                                </Tooltip>
                                                 <Tooltip title="Edit">
                                                     <Button
                                                         type="primary"
