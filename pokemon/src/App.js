@@ -40,7 +40,7 @@ function App() {
       <Router>
         <Layout>
         < div className= "header" >
-            <img src="https://poketouch.files.wordpress.com/2020/06/cropped-two_pikachu_pokemon_logo.png"  ></img>
+            <img src="https://poketouch.files.wordpress.com/2020/06/cropped-two_pikachu_pokemon_logo.png" width={1310} ></img>
           {/* <div style={{ color: 'black', fontSize: 30, textAlign: 'center' }}><h3>Pokemons</h3></div> */}
         </div>
           <Content>
